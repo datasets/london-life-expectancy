@@ -1,0 +1,323 @@
+{
+  "bytes": 213834,
+  "count_of_rows": 4005,
+  "hash": "e34593e9f4ab88f672a3e8fee176bcec",
+  "licenses": [
+    {
+      "name": "OGL v2",
+      "path": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+      "title": "UK Open Government Licence"
+    }
+  ],
+  "name": "health-life-expectancy",
+  "profile": "data-package",
+  "resources": [
+    {
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/xls",
+      "name": "male-life-expectancy",
+      "path": "data/male-life-expectancy.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "New code",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Area code",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "Local Authority",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Year",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "Value",
+            "type": "any"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/xls",
+      "name": "female-life-expectancy",
+      "path": "data/female-life-expectancy.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "New code",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Area code",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "Local Authority",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Year",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "Value",
+            "type": "any"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    },
+    {
+      "dialect": {
+        "caseSensitiveHeader": false,
+        "delimiter": ",",
+        "doubleQuote": true,
+        "header": true,
+        "lineTerminator": "\r\n",
+        "quoteChar": "\"",
+        "skipInitialSpace": false
+      },
+      "encoding": "utf-8",
+      "format": "csv",
+      "mediatype": "text/xls",
+      "name": "life-expectancy-at-65",
+      "path": "data/life-expectancy-at-65.csv",
+      "profile": "tabular-data-resource",
+      "schema": {
+        "fields": [
+          {
+            "format": "default",
+            "name": "Area code",
+            "type": "string"
+          },
+          {
+            "format": "default",
+            "name": "Local Authority",
+            "type": "string"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Men 2000-2002",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Men 2001-2003",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Men 2002-2004",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Men 2003-2005",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Men 2004-2006",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Men 2005-2007",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Men 2006-2008",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Men 2007-2009",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Men 2008-2010",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Men 2009-2011",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Men 2010-2012",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "Men 2011-2013",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "Men 2012-2014",
+            "type": "any"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Women 2000-2002",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Women 2001-2003",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Women 2002-2004",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Women 2003-2005",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Women 2004-2006",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Women 2005-2007",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Women 2006-2008",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Women 2007-2009",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Women 2008-2010",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Women 2009-2011",
+            "type": "number"
+          },
+          {
+            "decimalChar": ".",
+            "format": "default",
+            "groupChar": "",
+            "name": "Women 2010-2012",
+            "type": "number"
+          },
+          {
+            "format": "default",
+            "name": "Women 2011-2013",
+            "type": "any"
+          },
+          {
+            "format": "default",
+            "name": "Women 2012-2014",
+            "type": "any"
+          }
+        ],
+        "missingValues": [
+          ""
+        ]
+      }
+    }
+  ],
+  "title": "Health - Life expectancy"
+}
