@@ -3,12 +3,12 @@ from dataflows import Flow, load, dump_to_path, ResourceWrapper, PackageWrapper,
 
 def set_format_and_name(package: PackageWrapper):
 
-    package.pkg.descriptor['title'] = 'Health - Life expectancy'
-    package.pkg.descriptor['name'] = 'health-life-expectancy'
+    package.pkg.descriptor['title'] = 'London Life expectancy'
+    package.pkg.descriptor['name'] = 'london-life-expectancy'
 
     package.pkg.descriptor['licenses'] = [{
-        "name": "OGL v2",
-        "path": 'http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/',
+        "name": "OGL",
+        "path": 'http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/',
         "title": 'UK Open Government Licence'
     }]
 
@@ -32,6 +32,15 @@ def set_format_and_name(package: PackageWrapper):
     yield third.it
 
     yield from package
+
+
+def remove_duplicates(rows):
+    seen = set()
+    for row in rows:
+        line = ''.join('{}{}'.format(key, val) for key, val in row.items())
+        if line in seen: continue
+        seen.add(line)
+        yield row
 
 
 link = 'https://data.london.gov.uk/download/life-expectancy-birth-and-age-65-borough/' \
@@ -85,5 +94,6 @@ Flow(
          fill_merged_cells=True,
          sheet=4),
     set_format_and_name,
+    remove_duplicates,
     dump_to_path(),
 ).process()

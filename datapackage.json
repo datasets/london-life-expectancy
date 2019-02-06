@@ -1,15 +1,15 @@
 {
-  "bytes": 213834,
-  "count_of_rows": 4005,
-  "hash": "e34593e9f4ab88f672a3e8fee176bcec",
+  "bytes": 131057,
+  "count_of_rows": 2025,
+  "hash": "2fa783bbb64a2d140bd1c01fb61edf19",
   "licenses": [
     {
-      "name": "OGL v2",
-      "path": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/2/",
+      "name": "OGL",
+      "path": "http://www.nationalarchives.gov.uk/doc/open-government-licence/version/3/",
       "title": "UK Open Government Licence"
     }
   ],
-  "name": "health-life-expectancy",
+  "name": "london-life-expectancy",
   "profile": "data-package",
   "resources": [
     {
@@ -319,5 +319,5 @@
       }
     }
   ],
-  "title": "Health - Life expectancy"
+  "title": "London Life expectancy"
 }
