@@ -9,7 +9,7 @@
       "title": "UK Open Government Licence"
     }
   ],
-  "name": "london-life-expectancy",
+  "name": "life-expectancy",
   "profile": "data-package",
   "resources": [
     {
@@ -319,5 +319,5 @@
       }
     }
   ],
-  "title": "London Life expectancy"
+  "title": "London life expectancy"
 }

@@ -3,8 +3,8 @@ from dataflows import Flow, load, dump_to_path, ResourceWrapper, PackageWrapper,
 
 def set_format_and_name(package: PackageWrapper):
 
-    package.pkg.descriptor['title'] = 'London Life expectancy'
-    package.pkg.descriptor['name'] = 'london-life-expectancy'
+    package.pkg.descriptor['title'] = 'London life expectancy'
+    package.pkg.descriptor['name'] = 'life-expectancy'
 
     package.pkg.descriptor['licenses'] = [{
         "name": "OGL",
