@@ -1,4 +1,4 @@
-<a href="https://datahub.io/core/london-life-expectancy"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25)" alt="badge" /></a>
+<a className="gh-badge" href="https://datahub.io/core/london-life-expectancy"><img src="https://badgen.net/badge/icon/View%20on%20datahub.io/orange?icon=https://datahub.io/datahub-cube-badge-icon.svg&label&scale=1.25" alt="badge" /></a>
 
 This dataset was scraped from [London data](https://data.london.gov.uk/) website.
 Life expectancy at birth and age 65 by sex.
