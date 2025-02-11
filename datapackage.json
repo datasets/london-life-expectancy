@@ -1,7 +1,7 @@
 {
   "bytes": 127194,
   "count_of_rows": 2332,
-  "hash": "3743efd383d45df7805c8b562eb4c875",
+  "hash": "3710018d2f257cb26480d292dd3a01b6",
   "licenses": [
     {
       "name": "OGL",
@@ -27,7 +27,7 @@
       "format": "csv",
       "hash": "c9e07820db1e96453a12e1f7f57490db",
       "name": "male-life-expectancy",
-      "path": "data\\male-life-expectancy.csv",
+      "path": "data/male-life-expectancy.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -77,7 +77,7 @@
       "format": "csv",
       "hash": "7d8e4c4b764af2da7e5aff76799247eb",
       "name": "female-life-expectancy",
-      "path": "data\\female-life-expectancy.csv",
+      "path": "data/female-life-expectancy.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
@@ -127,7 +127,7 @@
       "format": "csv",
       "hash": "543dd1eab88801b4903189552ec9acae",
       "name": "life-expectancy-at-65",
-      "path": "data\\life-expectancy-at-65.csv",
+      "path": "data/life-expectancy-at-65.csv",
       "profile": "tabular-data-resource",
       "schema": {
         "fields": [
