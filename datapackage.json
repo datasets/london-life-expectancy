@@ -1,7 +1,7 @@
 {
-  "bytes": 133037,
-  "count_of_rows": 2025,
-  "hash": "45bcd053a7931f4a1ccb2673729d254a",
+  "bytes": 127194,
+  "count_of_rows": 2332,
+  "hash": "3710018d2f257cb26480d292dd3a01b6",
   "licenses": [
     {
       "name": "OGL",
@@ -13,6 +13,7 @@
   "profile": "data-package",
   "resources": [
     {
+      "bytes": 56912,
       "dialect": {
         "caseSensitiveHeader": false,
         "delimiter": ",",
@@ -24,7 +25,7 @@
       },
       "encoding": "utf-8",
       "format": "csv",
-      "mediatype": "text/xls",
+      "hash": "c9e07820db1e96453a12e1f7f57490db",
       "name": "male-life-expectancy",
       "path": "data/male-life-expectancy.csv",
       "profile": "tabular-data-resource",
@@ -62,6 +63,7 @@
       }
     },
     {
+      "bytes": 56904,
       "dialect": {
         "caseSensitiveHeader": false,
         "delimiter": ",",
@@ -73,7 +75,7 @@
       },
       "encoding": "utf-8",
       "format": "csv",
-      "mediatype": "text/xls",
+      "hash": "7d8e4c4b764af2da7e5aff76799247eb",
       "name": "female-life-expectancy",
       "path": "data/female-life-expectancy.csv",
       "profile": "tabular-data-resource",
@@ -111,6 +113,7 @@
       }
     },
     {
+      "bytes": 13378,
       "dialect": {
         "caseSensitiveHeader": false,
         "delimiter": ",",
@@ -122,7 +125,7 @@
       },
       "encoding": "utf-8",
       "format": "csv",
-      "mediatype": "text/xls",
+      "hash": "543dd1eab88801b4903189552ec9acae",
       "name": "life-expectancy-at-65",
       "path": "data/life-expectancy-at-65.csv",
       "profile": "tabular-data-resource",
@@ -130,187 +133,132 @@
         "fields": [
           {
             "format": "default",
-            "name": "Area code",
+            "name": "Area code ",
             "type": "string"
           },
           {
             "format": "default",
-            "name": "Local Authority",
+            "name": "Local Authority ",
             "type": "string"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Men 2000-2002",
+            "name": "2000-2002 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Men 2001-2003",
+            "name": "2001-2003 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Men 2002-2004",
+            "name": "2002-2004 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Men 2003-2005",
+            "name": "2003-2005 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Men 2004-2006",
+            "name": "2004-2006 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Men 2005-2007",
+            "name": "2005-2007 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Men 2006-2008",
+            "name": "2006-2008 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Men 2007-2009",
+            "name": "2007-2009 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Men 2008-2010",
+            "name": "2008-2010 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Men 2009-2011",
+            "name": "2009-2011 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Men 2010-2012",
-            "type": "number"
-          },
-          {
-            "format": "default",
-            "name": "Men 2011-2013",
-            "type": "any"
-          },
-          {
-            "format": "default",
-            "name": "Men 2012-2014",
-            "type": "any"
-          },
-          {
-            "decimalChar": ".",
-            "format": "default",
-            "groupChar": "",
-            "name": "Women 2000-2002",
+            "name": "2010-2012 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Women 2001-2003",
+            "name": "2011-2013 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Women 2002-2004",
+            "name": "2012-2014 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Women 2003-2005",
+            "name": "2013-2015 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Women 2004-2006",
+            "name": "2014-2016 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Women 2005-2007",
+            "name": "2015-2017 ",
             "type": "number"
           },
           {
             "decimalChar": ".",
             "format": "default",
             "groupChar": "",
-            "name": "Women 2006-2008",
+            "name": "2016-2018 ",
             "type": "number"
-          },
-          {
-            "decimalChar": ".",
-            "format": "default",
-            "groupChar": "",
-            "name": "Women 2007-2009",
-            "type": "number"
-          },
-          {
-            "decimalChar": ".",
-            "format": "default",
-            "groupChar": "",
-            "name": "Women 2008-2010",
-            "type": "number"
-          },
-          {
-            "decimalChar": ".",
-            "format": "default",
-            "groupChar": "",
-            "name": "Women 2009-2011",
-            "type": "number"
-          },
-          {
-            "decimalChar": ".",
-            "format": "default",
-            "groupChar": "",
-            "name": "Women 2010-2012",
-            "type": "number"
-          },
-          {
-            "format": "default",
-            "name": "Women 2011-2013",
-            "type": "any"
-          },
-          {
-            "format": "default",
-            "name": "Women 2012-2014",
-            "type": "any"
           }
         ],
         "missingValues": [

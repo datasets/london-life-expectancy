@@ -22,10 +22,10 @@ To update the data run the process script locally:
 
 ```
 # Install dataflows
-pip install dataflows
+pip install -r scripts/requirements.txt
 
 # Run the script
-python london-life-expectancy.py
+python scripts/london-life-expectancy.py
 ```
 
 ### License
